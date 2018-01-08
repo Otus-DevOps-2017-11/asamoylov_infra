@@ -61,3 +61,17 @@ gcloud compute instances create reddit-app-n2\
   --zone=europe-west3-b \
   --metadata startup-script-url=https://storage.cloud.google.com/scriptsstartup/startup_script.sh
 
+Домашняя работа 07
+
+Самостоятельное задание № 1
+
+Для параметризации пользовательские переменные id_project, source_image_family, machine указаны в разделе variables конфигурационного файла. Переменные указываются в файле variables.json. Пример заполнения variables.json.example
+
+Самостоятельное задание № 2
+
+Дополнительные опции параметризации
+
+Описание образа - "image_description",
+Размер и тип диска - "disk_size", "disk_type"
+Название сети - "network"
+Теги - "tags"
