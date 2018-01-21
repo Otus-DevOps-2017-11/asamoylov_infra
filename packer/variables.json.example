@@ -1,0 +1,6 @@
+{
+    "project_id": "My project_id",
+    "source_image_family": "OS-type_version",
+    "machine_type": "f1-micro",
+    "ssh_user": "My user"
+}
