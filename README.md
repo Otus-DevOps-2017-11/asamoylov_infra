@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿# Задание №5
+=======
+# Задание №5
+>>>>>>> 14a1200ec9c477440f41909ea03876c3dc712e3f
 
 Самостоятельное задание.
 Исследовать способ подключения к internalhost в
@@ -64,6 +68,11 @@ gcloud compute instances create reddit-app-n2\
   --metadata startup-script-url=https://github.com/Otus-DevOps-2017-11/asamoylov_infra/blob/Infra-2/startup_script.sh
 ```
 # Домашняя работа 07
+<<<<<<< HEAD
+=======
+
+## Самостоятельное задание № 1
+>>>>>>> 14a1200ec9c477440f41909ea03876c3dc712e3f
 
 1.1
 параметризированы:
@@ -80,6 +89,7 @@ gcloud compute instances create reddit-app-n2\
 1.3 В репозиторий добавить файл variables.json.example с примером
 заполнения
 
+<<<<<<< HEAD
 2.
 Добавленны опции:
 • Описание образа
@@ -90,3 +100,14 @@ gcloud compute instances create reddit-app-n2\
 ## Задания со звездочкой 
 
 Создан шаблон immutable.json и create-reddit-vm.sh
+=======
+## Самостоятельное задание № 2
+
+Дополнительные опции параметризации
+```
+Описание образа - "image_description",
+Размер и тип диска - "disk_size", "disk_type"
+Название сети - "network"
+Теги - "tags"
+```
+>>>>>>> 14a1200ec9c477440f41909ea03876c3dc712e3f
