@@ -12,7 +12,7 @@ gcloud compute instances create reddit-app-full \
 --metadata startup-script="cd /home/appuser/reddit && puma -d"
 
 #Создание правила фаервола
-gcloud compute firewall-rules create default-puma-server \
+gcloud compute firewall-rules create default-puma-server-from-script \
 --allow=TCP:9292 \
 --description=default-puma-server \
 --network=default \

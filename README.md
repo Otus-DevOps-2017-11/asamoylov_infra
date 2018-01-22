@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ﻿# Задание №5
-=======
-# Задание №5
->>>>>>> 14a1200ec9c477440f41909ea03876c3dc712e3f
 
 Самостоятельное задание.
 Исследовать способ подключения к internalhost в
@@ -13,7 +9,7 @@
 ```ssh -i ~/.ssh/appuser -A appuser@35.205.20.206 ssh appuser@10.132.0.3```
 или 
 ```ssh -o ProxyCommand='ssh -W %h:%p appuser@35.205.20.206' appuser@10.132.0.3```
-///////
+
 ## Доп. задание: Предложить вариант решения для
 подключения из консоли при помощи команды вида
 ssh internalhost из локальной консоли рабочего
@@ -68,11 +64,8 @@ gcloud compute instances create reddit-app-n2\
   --metadata startup-script-url=https://github.com/Otus-DevOps-2017-11/asamoylov_infra/blob/Infra-2/startup_script.sh
 ```
 # Домашняя работа 07
-<<<<<<< HEAD
-=======
 
 ## Самостоятельное задание № 1
->>>>>>> 14a1200ec9c477440f41909ea03876c3dc712e3f
 
 1.1
 параметризированы:
@@ -89,7 +82,6 @@ gcloud compute instances create reddit-app-n2\
 1.3 В репозиторий добавить файл variables.json.example с примером
 заполнения
 
-<<<<<<< HEAD
 2.
 Добавленны опции:
 • Описание образа
@@ -110,4 +102,3 @@ gcloud compute instances create reddit-app-n2\
 Название сети - "network"
 Теги - "tags"
 ```
->>>>>>> 14a1200ec9c477440f41909ea03876c3dc712e3f
