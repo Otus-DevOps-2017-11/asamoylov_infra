@@ -15,8 +15,12 @@ variable disk_image {
   description = "Disk image"
 }
 
-variable private_key_path {
-  description = "Path to the private key used for ssh access"
+variable private_key {
+  description = "Path to private key for provisioner"
+}
+
+variable "user" {
+  default = ["appuser", "appuser1"]
 }
 
 variable zone {
