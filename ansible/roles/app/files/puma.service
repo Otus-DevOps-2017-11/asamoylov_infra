@@ -8,6 +8,7 @@ EnvironmentFile=/home/appuser/db_config
 User=appuser
 WorkingDirectory=/home/appuser/reddit
 ExecStart=/bin/bash -lc 'puma'
+ExecReload=/bin/kill -s HUP $MAINPID
 Restart=always
 
 [Install]
