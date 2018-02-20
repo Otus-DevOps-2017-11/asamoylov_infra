@@ -205,3 +205,10 @@ ansible-playbook site.yml --check
 ```
 ansible-playbook site.yml
 ```
+
+# Домашняя работа №12
+
+1. Выполнил все задачи из урока.
+2. Добавил порт 80 в конфиг терраформ.
+3. В файле ansible/playbooks/app.yml добавлена роль jdauphant.nginx
+4. Примените плейбук site.yml для окружения stage - ansible-playbook -i environments/stage/hosts playbooks/site.yml
